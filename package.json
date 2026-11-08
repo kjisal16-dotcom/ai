@@ -1,0 +1,26 @@
+{
+  "name": "mahi-ai-platform",
+  "version": "1.0.0",
+  "description": "MAHI AI - College-Specific AI Platform for Students, Faculty, and Administrators",
+  "private": true,
+  "workspaces": [
+    "frontend"
+  ],
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "start": "npm --prefix frontend run start",
+    "lint": "npm --prefix frontend run lint"
+  },
+  "keywords": [
+    "ai",
+    "education",
+    "fastapi",
+    "nextjs",
+    "ollama",
+    "chromadb",
+    "rag"
+  ],
+  "author": "MAHI AI Architecture Team",
+  "license": "MIT"
+}
